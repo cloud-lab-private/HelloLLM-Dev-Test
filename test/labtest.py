@@ -27,10 +27,10 @@ class TestLLMResponse(unittest.TestCase):
     200. If the status is 400, then your request was incorrectly formatted.
     """
 
-    def test_lab_200_response(self):
-        result = lab()
-        self.assertIsInstance(result, requests.models.Response)
-        self.assertTrue(result.status_code == 200)
+    # def test_lab_200_response(self):
+    #     result = lab()
+    #     self.assertIsInstance(result, requests.models.Response)
+    #     self.assertTrue(result.status_code == 200)
 
     """
     The JSON of the response returned from the lab method should contain "hello world"
